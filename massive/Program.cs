@@ -61,19 +61,17 @@
 //PrintArray (matrix);
 
 
-
-void PrintImage (int [,] image)
+int [,] pic = new int [23, 25];
+void PrintImage(int[,] image)
 {
  for (int i = 0; i < image.GetLength(0); i++)
  {
  for (int j = 0; j < image.GetLength(1); j++)
  {
- if(image [i, j] == 0) Console.Write($" ");
- else Console.Write($"+");
+ if(image[i,j] == 0) Console.Write ($" ");
+ else Console.Write ($"+");
  }
- int[,] pic = new int[23,25];
-
-Console.WriteLine();
  }
-}
-PrintImage(pic);
+ }
+Console.WriteLine ();
+PrintImage (pic);
