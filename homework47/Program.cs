@@ -22,7 +22,7 @@ for (int i = 0; i < arr.GetLength(0); i++)
 for (int j = 0; j < arr.GetLength (1); j++)
 {
 Random rnd = new Random();
-arr [i, j] = Math.Round(rnd.NextDouble()*10*(10-15)+10,1);
+arr [i, j] = Math.Round(arr[i,j] = Convert.ToDouble(rnd.Next(-10, 10)/2.0),1);
 }
 }
 }
