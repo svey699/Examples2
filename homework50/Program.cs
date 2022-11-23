@@ -37,7 +37,7 @@ int Nstring = Convert.ToInt32(Console.ReadLine());
 System.Console.Write("Введите номер столбца ");
 int Ncolumn = Convert.ToInt32(Console.ReadLine());
 if (Nstring>3 && Ncolumn>4)
- Console.WriteLine("такого числа нет");
+ Console.WriteLine("такого числа в массиве нет");
  else
  {
  object Num = arr.GetValue (Nstring, Ncolumn);
