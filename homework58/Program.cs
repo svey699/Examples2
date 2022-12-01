@@ -1,6 +1,6 @@
 ﻿// Задача 58: Задайте две матрицы. Напишите программу, которая будет находить произведение двух матриц.
 
-int[,] hw58 (int [,] arr1,int[,]arr2)
+int[,] arr (int [,] arr1,int[,]arr2)
 {
    int n = arr1.GetLength(0);
    int m = arr2.GetLength(1);
@@ -38,4 +38,4 @@ int[,] arr1 = new int[,]{ { 2,4 }, { 3,2 } };
 int[,] arr2 = new int[,]{ { 3,4 }, { 3,3} };  
 
 
-print(hw58(arr1,arr2));
+print(arr(arr1,arr2));
