@@ -19,7 +19,7 @@ int row = 0;
 if(sum<minsum)
 {
     minsum = sum;
-    rowv= i + 1;
+    row = i + 1;
 }
 sum = 0;
 }
@@ -32,4 +32,4 @@ return row;
             {8, 4, 2 ,4},
             {5, 2, 6, 7}
         };
-Console.Write(arr(myArray));
+Console.Write($"Строка с наименьшей суммой: {arr(myArray)}");
